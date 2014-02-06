@@ -1,15 +1,14 @@
 BVA-XUI
 
-The README is used to introduce the module and provide instructions on
-how to install the module, any machine dependencies it may have (for
-example C compilers and installed libraries) and any other information
-that should be provided before the module is installed.
+BVA::XUI provides a versatile means of collecting, storing, and presenting information.
 
-A README file is required for CPAN modules since CPAN extracts the README
-file from a module distribution so that people browsing the archive
-can use it to get an idea of the module's uses. It is usually a good idea
-to provide version information here so that people can decide whether
-fixes for the module are worth downloading.
+XUI objects are capable of requesting and accepting input from files, std input, http, and customizable modes.
+
+XUI objects can provide outputs in std output, text files, Excel workbooks, html, json, pdf, rtf, and customizable formats.
+
+BVA::XUI has been in use only in private installations, in some Internet website back-ends and in some data analysis libraries.
+
+BVA::XUI has been in continuous develeopment beginning in 2001.
 
 
 INSTALLATION
@@ -27,21 +26,6 @@ After installing, you can find documentation for this module with the
 perldoc command.
 
     perldoc BVA::XUI
-
-You can also look for information at:
-
-    RT, CPAN's request tracker (report bugs here)
-        http://rt.cpan.org/NoAuth/Bugs.html?Dist=BVA-XUI
-
-    AnnoCPAN, Annotated CPAN documentation
-        http://annocpan.org/dist/BVA-XUI
-
-    CPAN Ratings
-        http://cpanratings.perl.org/d/BVA-XUI
-
-    Search CPAN
-        http://search.cpan.org/dist/BVA-XUI/
-
 
 LICENSE AND COPYRIGHT
 
