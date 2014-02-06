@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CurrentWorkingDirectory</key>
+	<string>/Users/bwva</string>
+	<key>WorksheetContents</key>
+	<string>perl /Library/WebServer/CGI-Executables/BVA/XUI/t/DATA/WHERE/db_make_selector.t show_subs=1#-#-#Functions:--------X_grouperY_chunkerZ_chunker_assemble_test_subs_chunker_final_selector_grouper_operators_parse_conditions_parser_sttmts_to_tests_taggermake_selector---Methods:--------DATA::WHERE::X_grouper	DATA::WHERE	X_grouper	CODE(0x7f88a40dc860)	DATA::WHERE::Y_chunker	DATA::WHERE	Y_chunker	CODE(0x7f88a40dc290)	DATA::WHERE::Z_chunker	DATA::WHERE	Z_chunker	CODE(0x7f88a40dbd50)	DATA::WHERE::make_selector	DATA::WHERE	make_selector	CODE(0x7f88a41f1748)	---ok 1 - mark should be 'SUP'ok 2 - dbx_connect should load db** Text 1:last=smith AND (city=Santa Cruz OR zip=95060) OR last=jones AND (city=Capitola OR zip=95010) OR ?=whateverok 3 - Should be no errors on valid statement 1.ok 4 - Should be no errors in re-done selector for statement 1.ok 5 - re-done 'where' should be same as original, at statement 11..5</string>
+</dict>
+</plist>
